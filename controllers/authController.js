@@ -53,4 +53,35 @@ exports.login = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.protect = catchAsync;
+exports.protect = catchAsync(async (req, res, next) => {
+  if (
+    !req.headers.authorization ||
+    !req.headers.authorization.split(' ')[1][10]
+    /* [10] used since JWT are always more than 10 characters in length */
+  )
+    return next(new AppError('You are not logged in, Kindly log in', 401));
+
+  const token = req.headers.authorization.split(' ')[1];
+  const decodedToken = jwt.verify(token, process.env.JWT_SECRETE);
+
+  // 3) Check if user still exists
+  const currentUser = await User.findById(decodedToken.id);
+  // console.log(currentUser);
+  // if (!currentUser) {
+  //   return next(
+  //     new AppError(
+  //       'The user belonging to this token does no longer exist.',
+  //       401,
+  //     ),
+  //   );
+  // }
+
+  // // 4) Check if user changed password after the token was issued
+  // if (currentUser.changedPasswordAfter(decodedToken.iat)) {
+  //   return next(
+  //     new AppError('User recently changed password! Please log in again.', 401),
+  //   );
+  // }
+  currentUser.id = currentUser._id;
+  next();
+});
