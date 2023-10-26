@@ -1,7 +1,10 @@
 const catchAsync = require('../utils/catchAsync');
+const checkRequiredFields = require('../utils/helpers/checkRequiredFields');
 
-exports.createOne = (Model) =>
+exports.createOne = (Model, requiredFields) =>
   catchAsync(async (req, res, next) => {
+    req.body.user = req.user;
+    checkRequiredFields(req.body, requiredFields);
     const doc = await Model.create(req.body);
 
     res.status(201).json({
