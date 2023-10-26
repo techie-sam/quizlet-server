@@ -6,7 +6,7 @@ const { register, getAllApplicants } = require('../controllers/applicant');
 
 // router.use(authFactory.protect);
 
-router.route('/').get(getAllApplicants).post(register);
+// router.route('/').get(getAllApplicants).post(register);
 // router.post(x);
 
 module.exports = router;

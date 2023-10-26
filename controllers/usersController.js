@@ -13,7 +13,7 @@ function signToken(id) {
 
 exports.register = catchAsync(async (req, res, next) => {
   checkRequiredFields(req.body, ['firstname', 'lastname', 'email', 'password']);
-
+  req.body.role = undefined
   const doc = new User(req.body);
   await doc.matchPasswords(req.body.passwordConfirm);
   await doc.save();
@@ -52,3 +52,6 @@ exports.login = catchAsync(async (req, res, next) => {
     token: token,
   });
 });
+
+exports.protect =  catchAsync
+
