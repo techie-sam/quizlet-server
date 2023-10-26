@@ -1,0 +1,73 @@
+[
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Rome", "Paris"],
+    "correct_option": 3
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Rome", "Paris"],
+    "correct_option": 3
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correct_option": 1
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the largest mammal in the world?",
+    "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
+    "correct_option": 2
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct_option": 1
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correct_option": 1
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the longest river in the world?",
+    "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+    "correct_option": 1
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "Which planet is known as the Evening Star?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correct_option": 0
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "O2", "N2"],
+    "correct_option": 0
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "Which planet is known as the Evening Star?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correct_option": 0
+  },
+  {
+    "testID": "64df4db45042b69d5758aa31",
+    "question_text": "What is the longest river in the world?",
+    "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+    "correct_option": 1
+  }
+]
