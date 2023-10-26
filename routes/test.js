@@ -6,8 +6,5 @@ const { protect } = require('../controllers/authController');
 // const applicantRouter = require('./applicant');
 
 router.route('/').get(getTests).post(protect, createTest);
-// router.get('/', createTest);
-// router.use('/:testCode/applicants', applicantRouter);
-// router.get('/:code', getTest);
 
 module.exports = router;
