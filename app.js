@@ -3,8 +3,9 @@ const cors = require('cors');
 
 const app = express();
 
-const usersRoute = require('./routes/users');
-const testRoute = require('./routes/test');
+const usersRoutes = require('./routes/users');
+const testRoutes = require('./routes/test');
+const questionRoutes = require('./routes/question');
 const globalErrorHandler = require('./globalErrorControlller');
 
 app.use((req, res, next) => {
@@ -16,8 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(express.url)
 
-app.use('/api/v1/users', usersRoute);
-app.use('/api/v1/tests', testRoute);
+app.use('/api/v1/users', usersRoutes);
+app.use('/api/v1/tests', testRoutes);
+app.use('/api/v1/questions', questionRoutes);
 
 app.all('*', (req, res, next) => {
   res.status(404).json({

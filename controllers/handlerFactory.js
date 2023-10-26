@@ -17,11 +17,14 @@ exports.createOne = (Model, requiredFields) =>
 
 exports.getAll = (Model) =>
   catchAsync(async (req, res, next) => {
-    const doc = await Model.find();
+    let filter = {};
+    if (req.params.questionId) filter = { testID: req.params.questionId };
+    const doc = await Model.find(filter);
 
     res.status(200).json({
       status: 'success',
       data: doc,
+      length: doc.length,
     });
   });
 
