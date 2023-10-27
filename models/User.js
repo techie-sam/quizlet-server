@@ -18,6 +18,8 @@ const schema = mongoose.Schema({
     required: true,
     unique: true,
     trim: true,
+    lowercase: true,
+    // validate: [validator.isEmail, 'Please provide a valid email'],
   },
   password: {
     type: String,

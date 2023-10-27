@@ -9,17 +9,20 @@ const schema = mongoose.Schema({
   question_text: {
     type: String,
     required: true,
+    select: false,
   },
   options: {
     type: Array,
     required: true,
+    select: false,
   },
   correct_option: {
     type: Array,
     required: true,
+    select: false,
   },
 });
 
-const Question = mongoose.model('Questions', schema);
+const Question = mongoose.model('question', schema);
 
 module.exports = Question;
