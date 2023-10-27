@@ -1,0 +1,316 @@
+[
+  {
+    "testId": "1",
+    "question_text": "What is React?",
+    "options": [
+      "A JavaScript library for building user interfaces",
+      "A programming language",
+      "A database management system",
+      "A text editor"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "2",
+    "question_text": "What is the main purpose of state in a React component?",
+    "options": [
+      "To store and manage data that can change over time",
+      "To define the component's structure",
+      "To handle routing",
+      "To create props"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "3",
+    "question_text": "What is JSX in React?",
+    "options": [
+      "JavaScript XML",
+      "A popular text editor",
+      "A database query language",
+      "A React component"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "4",
+    "question_text": "What is the virtual DOM in React used for?",
+    "options": [
+      "To improve performance by minimizing DOM manipulation",
+      "To create a physical copy of the DOM",
+      "To handle server requests",
+      "To manage state"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "5",
+    "question_text": "How can you pass data from a parent component to a child component in React?",
+    "options": ["Using props", "Using state", "Using refs", "Using Redux"],
+    "correct_option": 0
+  },
+  {
+    "testId": "6",
+    "question_text": "What is the purpose of React Router?",
+    "options": [
+      "To enable client-side routing in a React application",
+      "To create server-side routing",
+      "To manage state in a Redux store",
+      "To handle AJAX requests"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "7",
+    "question_text": "Explain the concept of component lifecycle methods in React.",
+    "options": [
+      "Methods that are called at different stages of a component's life",
+      "Methods used for styling components",
+      "Methods for handling HTTP requests",
+      "Methods for handling state updates"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "8",
+    "question_text": "What is Redux, and how does it relate to React?",
+    "options": [
+      "A state management library for React applications",
+      "A component styling framework",
+      "A build tool for React",
+      "A routing library for React"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "9",
+    "question_text": "What is the purpose of the `key` prop in a React component's list?",
+    "options": [
+      "To help React identify which items have changed, added, or removed",
+      "To set the component's ID",
+      "To control styling",
+      "To determine component state"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "10",
+    "question_text": "What are higher-order components (HOCs) in React?",
+    "options": [
+      "Functions that take a component and return a new component",
+      "Components used for styling",
+      "Components that are rendered at the top of the hierarchy",
+      "Components that handle state updates"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "11",
+    "question_text": "What is the main advantage of using arrow functions in React component methods?",
+    "options": [
+      "They automatically bind 'this' to the component instance",
+      "They improve code readability",
+      "They reduce the size of the component",
+      "They enhance component security"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "12",
+    "question_text": "Explain the concept of conditional rendering in React.",
+    "options": [
+      "Rendering components based on certain conditions or criteria",
+      "Rendering components in a random order",
+      "Rendering components with predefined styles",
+      "Rendering components without any conditions"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "13",
+    "question_text": "What is the purpose of React Hooks, and give an example of a commonly used hook?",
+    "options": [
+      "To add state and other features to functional components, e.g., useState",
+      "To add styles to components",
+      "To improve the performance of class components",
+      "To simplify routing in React applications"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "14",
+    "question_text": "What is the key difference between props and state in React?",
+    "options": [
+      "Props are immutable, and state is mutable within a component",
+      "Props are used for styling, and state is used for routing",
+      "Props are only accessible in functional components, and state is only accessible in class components",
+      "Props and state are interchangeable in React components"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "15",
+    "question_text": "What is the purpose of the 'componentDidMount' lifecycle method in React, and when is it called?",
+    "options": [
+      "It's called after the component has been added to the DOM and is often used for initial data fetching",
+      "It's called before the component is rendered for the first time",
+      "It's called when the component is removed from the DOM",
+      "It's called when the component's state changes"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "16",
+    "question_text": "What is the role of a reducer in a Redux store?",
+    "options": [
+      "To specify how the state changes in response to actions",
+      "To define the component structure",
+      "To handle routing in a React application",
+      "To create server-side routing"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "17",
+    "question_text": "Explain the concept of component composition in React and how it is achieved.",
+    "options": [
+      "Combining multiple components to create more complex UIs",
+      "Composing musical tunes within components",
+      "Composing text for the user interface",
+      "Composing images in a React application"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "18",
+    "question_text": "What is the purpose of the 'shouldComponentUpdate' lifecycle method in React?",
+    "options": [
+      "To optimize performance by determining whether the component should re-render",
+      "To force the component to re-render regardless of changes",
+      "To handle routing within a component",
+      "To control component state"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "19",
+    "question_text": "What is the role of the 'useEffect' hook in React functional components?",
+    "options": [
+      "To perform side effects in functional components",
+      "To handle HTTP requests in class components",
+      "To define the component's structure",
+      "To manage routing in a Redux store"
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "20",
+    "question_text": "What is the purpose of the 'setState' method in React, and when should it be used?",
+    "options": [
+      "To update a component's state and trigger a re-render, typically within event handlers or asynchronous actions.",
+      "To define the component's structure.",
+      "To handle server requests.",
+      "To create props."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "21",
+    "question_text": "Explain the concept of React components and their types.",
+    "options": [
+      "Building blocks of a React application, including functional and class components.",
+      "Methods for handling HTTP requests.",
+      "A way to create database schemas.",
+      "Components used for styling."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "22",
+    "question_text": "What is the role of the 'map' function in React when working with arrays of data?",
+    "options": [
+      "To iterate over an array and create a new array of React components.",
+      "To perform mathematical operations on array elements.",
+      "To handle AJAX requests.",
+      "To define component styles."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "23",
+    "question_text": "What is the purpose of the 'componentDidUpdate' lifecycle method in React, and when is it called?",
+    "options": [
+      "Called after a component's state or props have changed and can be used for additional updates or side effects.",
+      "Called before the component is initially rendered.",
+      "Called when the component is removed from the DOM.",
+      "Called when the component's state changes."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "24",
+    "question_text": "Explain the concept of conditional rendering in React and provide an example.",
+    "options": [
+      "Rendering components based on certain conditions or criteria, such as using the ternary operator to conditionally render different elements.",
+      "Rendering components in a random order.",
+      "Rendering components with predefined styles.",
+      "Rendering components without any conditions."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "25",
+    "question_text": "What is the purpose of the 'useContext' hook in React, and how does it work?",
+    "options": [
+      "To access and share data (e.g., themes, authentication) between components without prop drilling.",
+      "To define the component's structure.",
+      "To improve component performance.",
+      "To manage routing in a Redux store."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "26",
+    "question_text": "What are the key differences between React and React Native?",
+    "options": [
+      "React is for web applications, while React Native is for mobile app development.",
+      "React Native is used for server-side routing, whereas React is not.",
+      "React is primarily used for database management, while React Native is for text editing.",
+      "There are no significant differences between React and React Native."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "27",
+    "question_text": "Explain the concept of unidirectional data flow in React.",
+    "options": [
+      "Data flows from parent components to child components, preventing child components from directly modifying parent data.",
+      "Data can flow in both directions between any components.",
+      "Data is limited to flowing from child components to parent components.",
+      "Data flow is not a concept in React."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "28",
+    "question_text": "What is the purpose of the 'propTypes' library in React, and why is it used?",
+    "options": [
+      "To validate and specify the types of props that a component should receive, helping with debugging and documentation.",
+      "To handle HTTP requests in React components.",
+      "To create server-side routing.",
+      "To manage state in a Redux store."
+    ],
+    "correct_option": 0
+  },
+  {
+    "testId": "29",
+    "question_text": "What is the significance of the 'key' prop in mapping elements in a React component's list, and what can happen if it's omitted?",
+    "options": [
+      "The 'key' prop helps React identify which items have changed, been added, or removed, and omitting it can lead to rendering issues and poor performance.",
+      "The 'key' prop is used for styling components, and omitting it has no impact.",
+      "The 'key' prop controls routing in a React application.",
+      "The 'key' prop determines component state, and omitting it is acceptable."
+    ],
+    "correct_option": 0
+  }
+]

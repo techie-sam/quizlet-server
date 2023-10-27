@@ -1,4 +1,4 @@
-const Question = require('../models/questions');
+const Question = require('../models/Question');
 const { getAll } = require('./handlerFactory');
 const catchAsync = require('../utils/catchAsync');
 
