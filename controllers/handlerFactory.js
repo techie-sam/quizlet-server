@@ -36,7 +36,10 @@ exports.getAll = (Model) =>
       : {};
     const doc = await Model.find(filter);
 
-    if (Model.modelName === 'question') shuffleArray(doc);
+    // // const length
+    // const doc = await Model.aggregate([{ $sample: { size: 15 } }]);
+    // // console.log(req.query)
+    // if (Model.modelName === 'question') shuffleArray(doc);
 
     res.status(200).json({
       status: 'success',
