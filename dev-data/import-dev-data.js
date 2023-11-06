@@ -1,60 +1,59 @@
 const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const Question = require('./../../models/Question');
-const Review = require('./../../models/reviewModel');
-const User = require('./../../models/userModel');
+const Question = require('../models/Question');
 
-dotenv.config({ path: './config.env' });
-
-const DB = process.env.DATABASE.replace(
-  '<PASSWORD>',
-  process.env.DATABASE_PASSWORD,
-);
+dotenv.config();
 
 mongoose
-  .connect(DB, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-  })
+  .connect(process.env.MONGODB_URI)
   .then(() => console.log('DB connection successful!'));
 
-// READ JSON FILE
-const tours = JSON.parse(fs.readFileSync(`${__dirname}/tours.json`, 'utf-8'));
-const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
-const reviews = JSON.parse(
-  fs.readFileSync(`${__dirname}/reviews.json`, 'utf-8'),
-);
+const getModel = (model) => {
+  switch (model) {
+    case 'question':
+      return Question;
+    default:
+      return null;
+  }
+};
 
-// IMPORT DATA INTO DB
-const importData = async () => {
+const readFile = (fileName = !process.argv[4]) => {
+  const content = JSON.parse(
+    fs.readFileSync(`${__dirname}/${fileName}.json`, 'utf-8'),
+  );
+  console.log(`${__dirname}/${fileName}.json`);
+
+  return content;
+};
+
+const load = async (Model) => {
+  console.log(Model);
+  readFile('react');
+  //   console.log();
+  //   await Model.create(
+  //     JSON.parse(
+  //       fs.readFileSync(`${__dirname}/${Model.collection.name}.json`, 'utf-8'),
+  //     ),
+  //     { validateBeforeSave: false },
+  //   );
+  //   console.log(`${Model.collection.name} successfully loaded!`);
+  //   if (data) process.exit();
+};
+
+const importData = async (Model, file) => {
   try {
-    await Tour.create(tours);
-    await User.create(users, { validateBeforeSave: false });
-    await Review.create(reviews);
-    console.log('Data successfully loaded!');
+    await load(Model);
   } catch (err) {
     console.log(err);
   }
-  process.exit();
 };
 
-// DELETE ALL DATA FROM DB
-const deleteData = async () => {
-  try {
-    await Tour.deleteMany();
-    await User.deleteMany();
-    await Review.deleteMany();
-    console.log('Data successfully deleted!');
-  } catch (err) {
-    console.log(err);
-  }
-  process.exit();
-};
-
+const model = process.argv[3];
+const file = process.argv[4];
 if (process.argv[2] === '--import') {
-  importData();
+  importData(getModel(model));
 } else if (process.argv[2] === '--delete') {
-  deleteData();
+  //   deleteData();
 }
+process.exit();

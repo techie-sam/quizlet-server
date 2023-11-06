@@ -1,6 +1,6 @@
 [
   {
-    "testId": "1",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is React?",
     "options": [
       "A JavaScript library for building user interfaces",
@@ -11,7 +11,7 @@
     "correct_option": 0
   },
   {
-    "testId": "2",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is the main purpose of state in a React component?",
     "options": [
       "To store and manage data that can change over time",
@@ -22,7 +22,7 @@
     "correct_option": 0
   },
   {
-    "testId": "3",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is JSX in React?",
     "options": [
       "JavaScript XML",
@@ -33,7 +33,7 @@
     "correct_option": 0
   },
   {
-    "testId": "4",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is the virtual DOM in React used for?",
     "options": [
       "To improve performance by minimizing DOM manipulation",
@@ -44,13 +44,13 @@
     "correct_option": 0
   },
   {
-    "testId": "5",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "How can you pass data from a parent component to a child component in React?",
     "options": ["Using props", "Using state", "Using refs", "Using Redux"],
     "correct_option": 0
   },
   {
-    "testId": "6",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is the purpose of React Router?",
     "options": [
       "To enable client-side routing in a React application",
@@ -61,7 +61,7 @@
     "correct_option": 0
   },
   {
-    "testId": "7",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "Explain the concept of component lifecycle methods in React.",
     "options": [
       "Methods that are called at different stages of a component's life",
@@ -72,7 +72,7 @@
     "correct_option": 0
   },
   {
-    "testId": "8",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is Redux, and how does it relate to React?",
     "options": [
       "A state management library for React applications",
@@ -83,7 +83,7 @@
     "correct_option": 0
   },
   {
-    "testId": "9",
+    "testID": "64df4db45042b69d5758aa32",
     "question_text": "What is the purpose of the `key` prop in a React component's list?",
     "options": [
       "To help React identify which items have changed, added, or removed",
@@ -94,7 +94,7 @@
     "correct_option": 0
   },
   {
-    "testId": "10",
+    "testID": "64df4db45042b69d5758aa320",
     "question_text": "What are higher-order components (HOCs) in React?",
     "options": [
       "Functions that take a component and return a new component",
@@ -105,7 +105,7 @@
     "correct_option": 0
   },
   {
-    "testId": "11",
+    "testID": "64df4db45042b69d5758aa321",
     "question_text": "What is the main advantage of using arrow functions in React component methods?",
     "options": [
       "They automatically bind 'this' to the component instance",
@@ -116,7 +116,7 @@
     "correct_option": 0
   },
   {
-    "testId": "12",
+    "testID": "64df4db45042b69d5758aa322",
     "question_text": "Explain the concept of conditional rendering in React.",
     "options": [
       "Rendering components based on certain conditions or criteria",
@@ -127,7 +127,7 @@
     "correct_option": 0
   },
   {
-    "testId": "13",
+    "testID": "64df4db45042b69d5758aa323",
     "question_text": "What is the purpose of React Hooks, and give an example of a commonly used hook?",
     "options": [
       "To add state and other features to functional components, e.g., useState",
@@ -138,7 +138,7 @@
     "correct_option": 0
   },
   {
-    "testId": "14",
+    "testID": "64df4db45042b69d5758aa324",
     "question_text": "What is the key difference between props and state in React?",
     "options": [
       "Props are immutable, and state is mutable within a component",
@@ -149,7 +149,7 @@
     "correct_option": 0
   },
   {
-    "testId": "15",
+    "testID": "64df4db45042b69d5758aa325",
     "question_text": "What is the purpose of the 'componentDidMount' lifecycle method in React, and when is it called?",
     "options": [
       "It's called after the component has been added to the DOM and is often used for initial data fetching",
@@ -160,7 +160,7 @@
     "correct_option": 0
   },
   {
-    "testId": "16",
+    "testID": "64df4db45042b69d5758aa326",
     "question_text": "What is the role of a reducer in a Redux store?",
     "options": [
       "To specify how the state changes in response to actions",
@@ -171,7 +171,7 @@
     "correct_option": 0
   },
   {
-    "testId": "17",
+    "testID": "64df4db45042b69d5758aa327",
     "question_text": "Explain the concept of component composition in React and how it is achieved.",
     "options": [
       "Combining multiple components to create more complex UIs",
@@ -182,7 +182,7 @@
     "correct_option": 0
   },
   {
-    "testId": "18",
+    "testID": "64df4db45042b69d5758aa328",
     "question_text": "What is the purpose of the 'shouldComponentUpdate' lifecycle method in React?",
     "options": [
       "To optimize performance by determining whether the component should re-render",
@@ -193,7 +193,7 @@
     "correct_option": 0
   },
   {
-    "testId": "19",
+    "testID": "64df4db45042b69d5758aa329",
     "question_text": "What is the role of the 'useEffect' hook in React functional components?",
     "options": [
       "To perform side effects in functional components",
@@ -204,7 +204,7 @@
     "correct_option": 0
   },
   {
-    "testId": "20",
+    "testID": "64df4db45042b69d5758aa320",
     "question_text": "What is the purpose of the 'setState' method in React, and when should it be used?",
     "options": [
       "To update a component's state and trigger a re-render, typically within event handlers or asynchronous actions.",
@@ -215,7 +215,7 @@
     "correct_option": 0
   },
   {
-    "testId": "21",
+    "testID": "64df4db45042b69d5758aa321",
     "question_text": "Explain the concept of React components and their types.",
     "options": [
       "Building blocks of a React application, including functional and class components.",
@@ -226,7 +226,7 @@
     "correct_option": 0
   },
   {
-    "testId": "22",
+    "testID": "64df4db45042b69d5758aa322",
     "question_text": "What is the role of the 'map' function in React when working with arrays of data?",
     "options": [
       "To iterate over an array and create a new array of React components.",
@@ -237,7 +237,7 @@
     "correct_option": 0
   },
   {
-    "testId": "23",
+    "testID": "64df4db45042b69d5758aa323",
     "question_text": "What is the purpose of the 'componentDidUpdate' lifecycle method in React, and when is it called?",
     "options": [
       "Called after a component's state or props have changed and can be used for additional updates or side effects.",
@@ -248,7 +248,7 @@
     "correct_option": 0
   },
   {
-    "testId": "24",
+    "testID": "64df4db45042b69d5758aa324",
     "question_text": "Explain the concept of conditional rendering in React and provide an example.",
     "options": [
       "Rendering components based on certain conditions or criteria, such as using the ternary operator to conditionally render different elements.",
@@ -259,7 +259,7 @@
     "correct_option": 0
   },
   {
-    "testId": "25",
+    "testID": "64df4db45042b69d5758aa325",
     "question_text": "What is the purpose of the 'useContext' hook in React, and how does it work?",
     "options": [
       "To access and share data (e.g., themes, authentication) between components without prop drilling.",
@@ -270,7 +270,7 @@
     "correct_option": 0
   },
   {
-    "testId": "26",
+    "testID": "64df4db45042b69d5758aa326",
     "question_text": "What are the key differences between React and React Native?",
     "options": [
       "React is for web applications, while React Native is for mobile app development.",
@@ -281,7 +281,7 @@
     "correct_option": 0
   },
   {
-    "testId": "27",
+    "testID": "64df4db45042b69d5758aa327",
     "question_text": "Explain the concept of unidirectional data flow in React.",
     "options": [
       "Data flows from parent components to child components, preventing child components from directly modifying parent data.",
@@ -292,7 +292,7 @@
     "correct_option": 0
   },
   {
-    "testId": "28",
+    "testID": "64df4db45042b69d5758aa328",
     "question_text": "What is the purpose of the 'propTypes' library in React, and why is it used?",
     "options": [
       "To validate and specify the types of props that a component should receive, helping with debugging and documentation.",
@@ -303,7 +303,7 @@
     "correct_option": 0
   },
   {
-    "testId": "29",
+    "testID": "64df4db45042b69d5758aa329",
     "question_text": "What is the significance of the 'key' prop in mapping elements in a React component's list, and what can happen if it's omitted?",
     "options": [
       "The 'key' prop helps React identify which items have changed, been added, or removed, and omitting it can lead to rendering issues and poor performance.",
